@@ -43,7 +43,9 @@
 В файл была вписана команда **print('Hello World')**
 
 ![image](https://github.com/parallaxD/DA-in-GameDev-lab1/assets/81700733/11c8d099-5c07-4d7b-9c7b-41e8b01f7f41)
+
 ![image](https://github.com/parallaxD/DA-in-GameDev-lab1/assets/81700733/eb2735d0-dc29-457c-b3d0-04b010630aeb)
+
 ![image](https://github.com/parallaxD/DA-in-GameDev-lab1/assets/81700733/17a4dfca-e274-47cc-aac9-8fc41d05964f)
 
 
@@ -58,7 +60,9 @@
 - В методе Start() был реализован вывод сообщения "Hello World" в консоль Unity с помощью класса Debug и метода Log().
 
 ![image](https://github.com/parallaxD/DA-in-GameDev-lab1/assets/81700733/56280e0b-9da9-453f-96f2-137b574f0aa6)
+
 ![image](https://github.com/parallaxD/DA-in-GameDev-lab1/assets/81700733/894fdb64-d627-47e0-9ebc-744e6d471886)
+
 ![image](https://github.com/parallaxD/DA-in-GameDev-lab1/assets/81700733/9c4c1ad9-c3e0-418b-b717-10083f930865)
 
 
@@ -79,36 +83,26 @@ public class HelloWorldWriter : MonoBehaviour
 ```
 
 ## Задание 3
-### Какова роль параметра Lr? Ответьте на вопрос, приведите пример выполнения кода, который подтверждает ваш ответ. В качестве эксперимента можете изменить значение параметра.
+### Оформить отчет в виде документации на github.
 
-- Перечисленные в этом туториале действия могут быть выполнены запуском на исполнение скрипт-файла, доступного [в репозитории](https://github.com/Den1sovDm1triy/hfss-scripting/blob/main/ScreatingSphereInAEDT.py).
-- Для запуска скрипт-файла откройте Ansys Electronics Desktop. Перейдите во вкладку [Automation] - [Run Script] - [Выберите файл с именем ScreatingSphereInAEDT.py из репозитория].
+- Из документа #Workshop#1 (полученного с сайта https://bigdigital-gamelab.ru/analiz-dannyh/) был получен шаблон отчёта по лабораторной работе.
+- Шаблон был скопирован в личный репозиторий.
+- В шаблон были внесены изменения в таблицу **отметка о выполнении заданий** и в **ФИО**, приведены ход и результаты выполнения заданий.
 
-```py
+![image](https://github.com/parallaxD/DA-in-GameDev-lab1/assets/81700733/836077db-19d7-4078-a956-438ddf787a65)
 
-import ScriptEnv
-ScriptEnv.Initialize("Ansoft.ElectronicsDesktop")
-oDesktop.RestoreWindow()
-oProject = oDesktop.NewProject()
-oProject.Rename("C:/Users/denisov.dv/Documents/Ansoft/SphereDIffraction.aedt", True)
-oProject.InsertDesign("HFSS", "HFSSDesign1", "HFSS Terminal Network", "")
-oDesign = oProject.SetActiveDesign("HFSSDesign1")
-oEditor = oDesign.SetActiveEditor("3D Modeler")
-oEditor.CreateSphere(
-	[
-		"NAME:SphereParameters",
-		"XCenter:="		, "0mm",
-		"YCenter:="		, "0mm",
-		"ZCenter:="		, "0mm",
-		"Radius:="		, "1.0770329614269mm"
-	], 
-)
+![image](https://github.com/parallaxD/DA-in-GameDev-lab1/assets/81700733/6a498529-0e41-4bad-944b-63fc4bc9a6a2)
 
-```
+
+
 
 ## Выводы
 
-Абзац умных слов о том, что было сделано и что было узнано.
+В результате выполнения работы на компьютер был установлен дистрибутив *Anaconda** и игровой движок **Unity**. Кроме того, через **Anaconda Navigator** я запустил Jupyter и написал программу, выводящую Hello World.
+В Unity я создал скрипт, выводящий в консоль сообщение "Hello World."
+Также оформил свой первый отчёт по работе.
+
+В итоге, было установлено всё необходимое программное обеспечение для работы на курсе, а также было проведено знакомство с ним.
 
 | Plugin | README |
 | ------ | ------ |
