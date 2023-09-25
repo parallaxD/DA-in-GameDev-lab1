@@ -41,7 +41,7 @@
 ### Написать программу Hello World на Python с запуском в Jupiter Notebook.
 Ход работы:
 - С сайта https://www.anaconda.com был установлен дистрибутив Anaconda. Через anaconda-navigator был запущен инструмент Jupyter Notebook. В окне браузера была создана папка DataAnalysis и файл HelloWorld.ipynb внутри неё.
-В файл была вписана команда ##print('Hello World')
+В файл была вписана команда **print('Hello World')**
 
 ```py
 
