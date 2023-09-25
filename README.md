@@ -56,7 +56,10 @@
 - На сцене был создан пустой объект под названием **HelloWorldWriter**
 - Была создана папка **Scripts** и скрипт в ней под названием **HelloWorldWriter**
 - В методе Start() был реализован вывод сообщения "Hello World" в консоль Unity с помощью класса Debug и метода Log().
-- 
+
+![image](https://github.com/parallaxD/DA-in-GameDev-lab1/assets/81700733/649391e3-0aea-41fa-b317-1bcea20d6e1b)
+
+
 ```C#
 
 using System.Collections;
