@@ -48,34 +48,28 @@
 ![image](https://github.com/parallaxD/DA-in-GameDev-lab1/assets/81700733/17a4dfca-e274-47cc-aac9-8fc41d05964f)
 
 
-- Определите связанные функции. Функция модели: определяет модель линейной регрессии wx+b. Функция потерь: функция потерь среднеквадратичной ошибки. Функция оптимизации: метод градиентного спуска для нахождения частных производных w и b.
-
-
 ## Задание 2
-### Должна ли величина loss стремиться к нулю при изменении исходных данных? Ответьте на вопрос, приведите пример выполнения кода, который подтверждает ваш ответ.
+### Написать программу Hello World на C# с запуском на Unity.
 
-- Перечисленные в этом туториале действия могут быть выполнены запуском на исполнение скрипт-файла, доступного [в репозитории](https://github.com/Den1sovDm1triy/hfss-scripting/blob/main/ScreatingSphereInAEDT.py).
-- Для запуска скрипт-файла откройте Ansys Electronics Desktop. Перейдите во вкладку [Automation] - [Run Script] - [Выберите файл с именем ScreatingSphereInAEDT.py из репозитория].
+- С сайта https://unity.com был установлен игровой движок **Unity** и приложение **Unity Hub**.
+- Создан пустой 3D-проект под названием Data Analysis In GameDev.
+- На сцене был создан пустой объект под названием **HelloWorldWriter**
+- Была создана папка **Scripts** и скрипт в ней под названием **HelloWorldWriter**
+- В методе Start() был реализован вывод сообщения "Hello World" в консоль Unity с помощью класса Debug и метода Log().
+- 
+```C#
 
-```py
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
 
-import ScriptEnv
-ScriptEnv.Initialize("Ansoft.ElectronicsDesktop")
-oDesktop.RestoreWindow()
-oProject = oDesktop.NewProject()
-oProject.Rename("C:/Users/denisov.dv/Documents/Ansoft/SphereDIffraction.aedt", True)
-oProject.InsertDesign("HFSS", "HFSSDesign1", "HFSS Terminal Network", "")
-oDesign = oProject.SetActiveDesign("HFSSDesign1")
-oEditor = oDesign.SetActiveEditor("3D Modeler")
-oEditor.CreateSphere(
-	[
-		"NAME:SphereParameters",
-		"XCenter:="		, "0mm",
-		"YCenter:="		, "0mm",
-		"ZCenter:="		, "0mm",
-		"Radius:="		, "1.0770329614269mm"
-	], 
-)
+public class HelloWorldWriter : MonoBehaviour
+{
+    void Start()
+    {
+        Debug.Log("Hello World");
+    }
+}
 
 ```
 
