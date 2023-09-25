@@ -43,25 +43,10 @@
 - С сайта https://www.anaconda.com был установлен дистрибутив Anaconda. Через anaconda-navigator был запущен инструмент Jupyter Notebook. В окне браузера была создана папка DataAnalysis и файл HelloWorld.ipynb внутри неё.
 В файл была вписана команда **print('Hello World')**
 
-```py
+![image](https://github.com/parallaxD/DA-in-GameDev-lab1/assets/81700733/11c8d099-5c07-4d7b-9c7b-41e8b01f7f41)
+![image](https://github.com/parallaxD/DA-in-GameDev-lab1/assets/81700733/eb2735d0-dc29-457c-b3d0-04b010630aeb)
+![image](https://github.com/parallaxD/DA-in-GameDev-lab1/assets/81700733/17a4dfca-e274-47cc-aac9-8fc41d05964f)
 
-In [ ]:
-#Import the required modules, numpy for calculation, and Matplotlib for drawing
-import numpy as np
-import matplotlib.pyplot as plt
-#This code is for jupyter Notebook only
-%matplotlib inline
-
-# define data, and change list to array
-x = [3,21,22,34,54,34,55,67,89,99]
-x = np.array(x)
-y = [2,22,24,65,79,82,55,130,150,199]
-y = np.array(y)
-
-#Show the effect of a scatter plot
-plt.scatter(x,y)
-
-```
 
 - Определите связанные функции. Функция модели: определяет модель линейной регрессии wx+b. Функция потерь: функция потерь среднеквадратичной ошибки. Функция оптимизации: метод градиентного спуска для нахождения частных производных w и b.
 
