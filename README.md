@@ -55,9 +55,13 @@
 - Создан пустой 3D-проект под названием Data Analysis In GameDev.
 - На сцене был создан пустой объект под названием **HelloWorldWriter**
 - Была создана папка **Scripts** и скрипт в ней под названием **HelloWorldWriter**
+- Скрипт был прикреплен к объекту **HelloWorldWriter**
 - В методе Start() был реализован вывод сообщения "Hello World" в консоль Unity с помощью класса Debug и метода Log().
 
-![image](https://github.com/parallaxD/DA-in-GameDev-lab1/assets/81700733/5e1f62e9-a957-4e04-a072-ebc8eb0c62be)
+![image](https://github.com/parallaxD/DA-in-GameDev-lab1/assets/81700733/56280e0b-9da9-453f-96f2-137b574f0aa6)
+![image](https://github.com/parallaxD/DA-in-GameDev-lab1/assets/81700733/894fdb64-d627-47e0-9ebc-744e6d471886)
+![image](https://github.com/parallaxD/DA-in-GameDev-lab1/assets/81700733/9c4c1ad9-c3e0-418b-b717-10083f930865)
+
 
 ```C#
 
