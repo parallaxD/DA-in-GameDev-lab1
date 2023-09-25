@@ -57,6 +57,7 @@
 - Была создана папка **Scripts** и скрипт в ней под названием **HelloWorldWriter**
 - В методе Start() был реализован вывод сообщения "Hello World" в консоль Unity с помощью класса Debug и метода Log().
 
+![image](https://github.com/parallaxD/DA-in-GameDev-lab1/assets/81700733/5e1f62e9-a957-4e04-a072-ebc8eb0c62be)
 
 ```C#
 
